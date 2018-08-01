@@ -36,7 +36,7 @@ func Test_templateCleanImageName(t *testing.T) {
 		// Lost of special characters
 		{
 			origName: "My()./-_:&^ $%[]#'@name",
-			expected: "My--.--_-----------name",
+			expected: "-y--.--_-----------name",
 		},
 	}
 
